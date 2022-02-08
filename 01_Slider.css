@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.Head {
+    opacity: 10%;
+    font-family: 'Quicksand', sans-serif;
+    font: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Head:hover {
+    opacity: 100%;
+    transition: all ease 3s;
+    font-family: 'Quicksand', sans-serif;
+    font: bold;
+}
+
+.slider {
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 400px;
+    width: 3600px;
+    display: flex;   /*убирает отсупы пикселей между картинками*/ 
+    position: relative;
+    left: 0;
+    transition: all ease 2s;
+}
+
+.slider-next-back {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-next {
+    opacity: 8%;
+    background: black;
+    clip-path: circle(50%);
+    height: 1em;
+    width: 1em;
+}
+
+.slider-next:hover {
+    opacity: 25%;
+    background: black;
+    clip-path: circle(50%);
+    height: 1em;
+    width: 1em;
+}
+
+.slider-back {
+    opacity: 8%;
+    background: black;
+    clip-path: circle(50%);
+    height: 1em;
+    width: 1em;
+}
+
+.slider-back:Hover {
+    opacity: 25%;
+    background: black;
+    clip-path: circle(50%);
+    height: 1em;
+    width: 1em;
+}
